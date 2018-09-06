@@ -1,8 +1,8 @@
 import express from 'express';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-import App from './src/client/App';
-import Html from './src/client/Html';
+import App from './client/App';
+import Html from './client/Html';
 
 const port = 5000;
 const server = express();
